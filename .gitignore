@@ -1,0 +1,4 @@
+.pytest_cache/
+.spyproject/
+Pipfile.lock
+*/**/__pycache__/
