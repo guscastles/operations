@@ -3,21 +3,21 @@
 Test module for the flatten function.
 """
 import pytest
-from operations.list.flatten import flatten, __flattened__
+from operations.list.flatten import flatten, flattened
 
 
 @pytest.mark.wip
 def test_flattened_on_empty_list():
-    assert __flattened__([])
+    assert flattened([])
 
 
 @pytest.mark.wip
 def test_flattened_on_not_flattened():
-    assert not __flattened__([[1]])
+    assert not flattened([[1]])
 
 
 def test_flattened():
-    assert __flattened__([1, 2, 3, 4])
+    assert flattened([1, 2, 3, 4])
 
 
 def test_flatten_an_empty_list():

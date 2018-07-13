@@ -27,3 +27,7 @@ def test_addition_of_an_array_of_numbers():
 
 def test_addition_of_diverse_elements():
     assert addition(1, [1, 2, 4, 3], 0) == 11
+
+
+def test_addition_with_nested_lists():
+    assert addition(1, [1, 2, 4, [3]], 0, [[[[[[4]], 5, 6]]]]) == 26
